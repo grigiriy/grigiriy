@@ -38,6 +38,22 @@ import Card from '@/components/Card.vue';
 
 export default {
   name: 'Index',
+  metaInfo: {
+    title:
+      "Yo! I'm Grigiriy. 🧑‍💻 Digital-artist, Web-developer etc. Here's some of my projects.",
+    meta: [
+      {
+        name: 'keywords',
+        content:
+          'web-developement, wed-design, веб-дизайн, веб-разработка, созлание сайтов',
+      },
+      {
+        name: 'description',
+        content:
+          "Yo! I'm Grigiriy. Digital-artist and web-developer from Moscow",
+      },
+    ],
+  },
   components: {
     Card,
   },

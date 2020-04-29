@@ -18,6 +18,21 @@ import Note from '@/components/Note.vue';
 
 export default {
   name: 'Medvedik',
+  metaInfo: {
+    title: 'Grigiriy - Web-dev - About the project MariaMedvedik.ru',
+    meta: [
+      {
+        name: 'keywords',
+        content:
+          'web-developement, wed-design, веб-дизайн, веб-разработка, созлание сайтов',
+      },
+      {
+        name: 'description',
+        content:
+          'Web application made with React and Gatsby. With a tiny "design-clothes-constructor". Maria Medvedik - Embrodary artist from Moscow...',
+      },
+    ],
+  },
   components: {
     Note,
   },

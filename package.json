@@ -7,7 +7,9 @@
     "explore": "gridsome explore"
   },
   "dependencies": {
-    "gridsome": "^0.7.0"
+    "@gridsome/plugin-google-analytics": "^0.1.0",
+    "gridsome": "^0.7.0",
+    "gridsome-plugin-yandex-metrika": "^0.1.2"
   },
   "devDependencies": {
     "eslint": "^6.7.2",

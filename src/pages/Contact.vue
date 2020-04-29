@@ -8,7 +8,7 @@
         <h1>Contact</h1>
         <p>
           Hey. My name is Grig<span style="color:yellow">o</span>riy, I'm
-          web-developer from Moscow. Love to create some wired stuff, but
+          web-developer from Moscow. Love to create some wired stuff, and
           usually open for different offers.
         </p>
         <p>I'm interested in remote front-end projects on Vue or React.</p>
@@ -43,5 +43,20 @@
 
 export default {
   name: 'Contact',
+  metaInfo: {
+    title: 'Front-end Developer. Grigiriy',
+    meta: [
+      {
+        name: 'keywords',
+        content:
+          'web-developement, wed-design, веб-дизайн, веб-разработка, созлание сайтов',
+      },
+      {
+        name: 'description',
+        content:
+          "I'm web-developer from Moscow. Love to create some wired stuff, and usually open for different offers",
+      },
+    ],
+  },
 };
 </script>

@@ -17,6 +17,21 @@ import Note from '@/components/Note.vue';
 
 export default {
   name: 'Dogs',
+  metaInfo: {
+    title: 'Grigiriy - Web-dev - About the project Pick-a-dog.ru',
+    meta: [
+      {
+        name: 'keywords',
+        content:
+          'web-developement, wed-design, веб-дизайн, веб-разработка, созлание сайтов',
+      },
+      {
+        name: 'description',
+        content:
+          'Web application made with React and Gatsby. This project started as a joke...',
+      },
+    ],
+  },
   components: {
     Note,
   },
