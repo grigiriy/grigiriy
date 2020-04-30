@@ -6,7 +6,7 @@
     </router-link>
     <Note
       name="Maria Medvedik 👩‍🎨"
-      full_text="Maria Medvedik - Embrodary artist from Moscow. She creates amazing artworks, you must go down below to check them out."
+      full_text="Maria Medvedik - Embroidery artist from Moscow. She creates amazing artworks, you must go down below to check them out."
       site_link="https://mariamedvedik.ru"
     />
   </div>
@@ -14,27 +14,27 @@
 
 <script>
 // @ is an alias to /src
-import Note from '@/components/Note.vue';
+import Note from "@/components/Note.vue";
 
 export default {
-  name: 'Medvedik',
+  name: "Medvedik",
   metaInfo: {
-    title: 'Grigiriy - Web-dev - About the project MariaMedvedik.ru',
+    title: "Grigiriy - Web-dev - About the project MariaMedvedik.ru",
     meta: [
       {
-        name: 'keywords',
+        name: "keywords",
         content:
-          'web-developement, wed-design, веб-дизайн, веб-разработка, созлание сайтов',
+          "web-developement, wed-design, веб-дизайн, веб-разработка, созлание сайтов"
       },
       {
-        name: 'description',
+        name: "description",
         content:
-          'Web application made with React and Gatsby. With a tiny "design-clothes-constructor". Maria Medvedik - Embrodary artist from Moscow...',
-      },
-    ],
+          'Web application made with React and Gatsby. With a tiny "design-clothes-constructor". Maria Medvedik - embroidery artist from Moscow...'
+      }
+    ]
   },
   components: {
-    Note,
-  },
+    Note
+  }
 };
 </script>

@@ -2,7 +2,7 @@
   <div class="card">
     <div class="card-header">
       <p class="h2">
-        <router-link class="blank" to="/note">{{ name }}</router-link>
+        <router-link class="blank" v-bind:to="'projects/' + url">{{ name }}</router-link>
       </p>
     </div>
     <div class="card-body">
@@ -10,25 +10,27 @@
       <p>{{ more }}</p>
     </div>
     <div class="card-footer">
-      <a v-bind:href="site_link" target="_blank"><button>Website</button></a>
+      <a v-bind:href="site_link" target="_blank">
+        <button>Website</button>
+      </a>
 
-      <router-link v-bind:to="'projects/' + url"
-        ><button>About</button></router-link
-      >
+      <router-link v-bind:to="'projects/' + url">
+        <button>About</button>
+      </router-link>
     </div>
   </div>
 </template>
 
 <script>
 export default {
-  name: 'Card',
+  name: "Card",
   props: {
     name: String,
     main_info: String,
     more: String,
     site_link: String,
-    url: String,
-  },
+    url: String
+  }
   //   data() {
   //     show: true;
   //   }

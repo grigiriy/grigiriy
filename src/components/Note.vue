@@ -6,7 +6,7 @@
         {{ full_text }}
       </p>
       <div class="links_below">
-        <a v-bind:href="site_link" target="_blank">
+        <a v-bind:href="site_link" target="_blank" >
           <button>Go to Website</button>
         </a>
         <router-link to="/contact">
@@ -25,7 +25,7 @@ export default {
   props: {
     name: String,
     full_text: String,
-    site_link: String,
+    site_link: String
   },
 };
 </script>
